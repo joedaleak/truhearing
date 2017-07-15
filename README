@@ -1,0 +1,33 @@
+Created By Joseph Seethaler
+
+
+I'm glad your here, Please feel free to look around.  I hope you see something you like.
+
+Just a few disclaimers and a quick no nonsense license
+
+Disclaimers:
+This code may or may not perform the operations as described.  
+I am not liable for adverse effects of this code, or any other code for that matter (if you use it,
+you are responsible to know what it does)
+
+
+License:
+You may use this code to:
+make something for yourself, 
+make something for your friends,
+make something that is open source, 
+as long as you give credit where it is due.
+
+This code may not be used in part or as a whole, in commercial software without my express
+written permission.
+
+This code may not be used in response to an employment test.
+
+thanks and have fun. 
+
+
+about this code:
+Language : RUBY
+This code is a response to a pre-interview test by TruHearing, the code accepts an array of
+times that are not available and returns an array of arrays which contains remaining time frames.
+this is done in 30 minute increments.
