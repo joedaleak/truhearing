@@ -15,10 +15,10 @@ def Team_availability(arr)
 			result.push([$resulttimes[i],$times[j]]) #create array of array elements with start and end time		
 		}
 
-		return result
 	else
-		return []
+		result = []
 	end
+		return result
 end
 
 def Delstarttimes(timerange)
