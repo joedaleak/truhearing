@@ -17,13 +17,15 @@ def Team_availability(arr)
 		result.push([$resulttimes[i],$times[j]]) #create array of array elements with start and end time		
 	}
 
-#debug	p result
+#debug	
+#p result
 	return result
 end
 
 def Delstarttimes(timerange)
 	startvalue = $times.index(timerange[0])
 	endvalue = $times.index(timerange[1])
+	$resulttimes.delete('5:00')
 	while startvalue < endvalue do # if current starttime position has not reached the endtime position then we continue
 		#remove the busy start time from the resulttimes array
 		$resulttimes.delete($times[startvalue])
